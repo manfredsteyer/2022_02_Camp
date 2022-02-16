@@ -1,0 +1,12 @@
+.active {
+    background-color:bisque
+}
+
+
+input.ng-dirty.ng-invalid {
+    border-left: red 5px solid;
+}
+
+input.ng-dirty.ng-valid {
+    border-left: darkgreen 5px solid;
+}

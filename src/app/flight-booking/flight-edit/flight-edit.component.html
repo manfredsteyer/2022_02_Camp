@@ -1,0 +1,14 @@
+<h1>Flight Edit</h1>
+
+Id: {{id}}<br>
+ShowDetails: {{showDetails}}<br>
+
+<form [formGroup]="formGroup">
+    <input formControlName="id">
+    <input formControlName="from">
+    <input formControlName="to">
+    <input formControlName="date">
+    <input formControlName="delayed" type="checkbox">
+</form>
+
+<pre>{{formGroup.controls['from'].errors | json}}</pre>
